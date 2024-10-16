@@ -36,7 +36,7 @@ aside{
     /* border: 1px solid #000; */
     background-color: #4faf6c;
     float: left;
-    position: relative; /* Con este position hacemos que los elementos que esten fuera del flujo dentro de este contenedor se coloquen con respecto a si mismo y no con el body */
+    position: relative; /* Con este position hacemos que los elementos que esten fuera del flujo dentro de este contenedor se coloquen con respecto a si mismo y no con el body, excepto la caja con position fixed, que siempre se colocara conforme el cuerpo */
 }
 
     /* Estilo para el footer */
