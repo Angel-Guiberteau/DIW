@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    border: 1px solid #ccc;
+}
+
+
+.logo {
+    border: 1px solid #ccc;
+    padding: 1%;
+    width: 15%;
+}
+
+nav {
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+nav a {
+    width: 4rem;
+    height: 4rem;
+    background-color: #ccc;
+    border: 1px solid #c5b8b8;
+}
+
+aside {
+    float: left;
+    width: 15%;
+    border: 1px solid #ccc;
+    padding: 2%;
+    height: 100vh;
+}
+
+aside ul {
+    list-style: none;
+}
+
+main {
+    height: 100vh;
+    float: left;
+    width: 85%;
+}         
+
+section{
+    width: 80%;
+    margin: auto;
+}
+
+.cgrid {
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+    text-align: center;
+    padding: 2%;
+}
+
+.imagen {
+    border: 1px solid #ccc;
+}
+
+.carta{
+    padding: 1rem;
+}

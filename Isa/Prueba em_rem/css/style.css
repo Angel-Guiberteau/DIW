@@ -1,0 +1,26 @@
+.container{
+    width: 100%;
+    height: 40%;
+    background-color: aquamarine;
+    margin: auto;
+}
+
+.si{
+    text-align: center;
+    width: 400px;
+    font-size: 50px;
+    background-color: rgb(24, 123, 156);
+    margin: auto;
+}
+
+#em{
+    font-size: 2em;
+}
+
+#rem{
+    font-size: 2rem;
+}
+
+@media (min-width: ) {
+    
+}

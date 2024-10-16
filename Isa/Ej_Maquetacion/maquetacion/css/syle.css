@@ -1,0 +1,32 @@
+body{
+    width: 1260px;
+    padding-top: 45px;
+    background-color: blue;
+}
+
+main{
+    width: 780px; /* 780px / 800px - 20px padding (10 +10)*/
+    height: 370px; /* 370px / 400px - 30px padding top*/
+    margin: 0 10px 0px 20px;
+    padding: 30px 10px 0 10px;
+    /* border: 1px solid #000; */
+    background-color: #389554;
+    float: left;
+}
+
+aside{
+    width: 370px; /* 370px / 400px - 30px padding (20 + 10)*/
+    height: 350px; /* 350px / 400px - 30px padding top*/
+    margin: 0px 20px 0px 10px;
+    padding: 50px 0 0 30px;
+    /* border: 1px solid #000; */
+    background-color: #389570;
+    float: left;
+}
+
+footer{
+    height: 100px;
+    width: 1260px;
+    background-color: #389595;
+    clear: both;
+}
